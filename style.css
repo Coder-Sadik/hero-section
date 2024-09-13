@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap");
+
+body {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: "Poppins";
+	background-color: white;
+	min-height: 100vh;
+}
+
+.text {
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 30px;
+	letter-spacing: 0.235em;
+	text-align: left;
+	color: rgba(47, 43, 113, 1);
+}
+.heading {
+	font-size: 70px;
+	font-weight: 700;
+	line-height: 81.55px;
+	text-align: left;
+	color: rgba(95, 89, 110, 1);
+	margin: 0;
+}
+
+.hero-section {
+	height: 750px;
+	margin: auto 0px;
+	/* border: 2px solid tomato; */
+}
+
+.btn {
+	margin-top: 20px;
+	font-family: inherit;
+	width: 197px;
+	height: 56px;
+	background-color: rgba(84, 184, 255, 1);
+	color: white;
+	border: none;
+	font-size: large;
+}
+i {
+	margin-left: 10px;
+}
+
+.texts :nth-child(3) {
+	color: rgba(0, 0, 0, 1);
+	margin: 30px 0px;
+	letter-spacing: 0.05em;
+}
+
+.pr {
+	position: relative;
+}
+.pa {
+	position: absolute;
+}
+.texts {
+	left: 115px;
+	width: fit-content;
+	bottom: 35px;
+	top: 50px;
+}
+.icon-left-1 {
+	top: -85px;
+}
+.icon-left-2 {
+	bottom: 0;
+}
+.upper-tri {
+	left: 50%;
+	margin-left: -44px;
+	top: 0;
+}
+.right-icon-1 {
+	right: 0;
+	top: 0;
+}
+.right-icon-2 {
+	right: 0;
+	bottom: 15px;
+}
+.right-icon-21 {
+	right: 0;
+	bottom: 0;
+}
+
+.girl-avatar {
+	top: 60px;
+	right: 0;
+}
+
+.obj-1 {
+	top: 213px;
+	right: 570px;
+}
+.obj-2 {
+	top: 113px;
+	right: 500px;
+}
+.obj-3 {
+	top: 13px;
+	right: 390px;
+}
+.obj-4 {
+	top: 63px;
+	right: 220px;
+}
+.obj-5 {
+	top: 213px;
+	right: 150px;
+}
+
+.footer {
+	text-align: center;
+    bottom: -10vh;
+}
